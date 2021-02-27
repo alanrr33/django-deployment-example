@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% block body_block %}
+<h1>Bienvenido a index</h1>
+<h2>Otro ejemplo de herencia de templates en index.html</h2>
+<h1>{{ text|upper  }}</h1>
+<h1>{{ text|cut:'mundo'  }}</h1>
+<h1>{{ number| add:"99" }}</h1>
+{% endblock %} 
+
